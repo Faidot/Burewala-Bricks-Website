@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Gallery — Burewala Bricks | The Yard, The Kiln, The Bricks</title>
+  <meta name="description" content="Photos from the Burewala Bricks yard — the kiln, the drying rows, the loads. A living archive since 1983.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Archivo:wght@400;500;600;700&amp;family=Big+Shoulders+Display:wght@500;600;700;800&amp;family=Gulzar&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <script src="image-slot.js"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #150F0B; color: #EFE6D9; font-family: 'Archivo', 'Helvetica Neue', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    ::selection { background: #E4592B; color: #150F0B; }
+    @keyframes bbUp { from { opacity: 0; transform: translateY(38px); } to { opacity: 1; transform: none; } }
+    @keyframes bbGlow { 0%, 100% { opacity: .7; } 50% { opacity: 1; } }
+  </style>
+</helmet>
+<dc-import name="SiteHeader" active="gallery" hint-size="100%,1px"></dc-import>
+<main>
+  <section data-screen-label="Gallery — Hero" style="position:relative;overflow:hidden;background:#120D0A;padding:clamp(160px,24vh,240px) clamp(20px,5vw,72px) clamp(56px,8vw,96px)">
+    <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(64% 48% at 36% 118%,rgba(226,88,32,.32),transparent 72%);animation:bbGlow 7s ease-in-out infinite"></div>
+    <div style="position:relative;max-width:1500px;margin:0 auto">
+      <p style="margin:0;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#9C8D7F;animation:bbUp .9s cubic-bezier(.16,1,.3,1) .05s both"><a href="Home.dc.html" style="color:#9C8D7F;text-decoration:none">Home</a> <span aria-hidden="true" style="color:var(--bbA,#E4592B)">/</span> Gallery — 06/08</p>
+      <h1 style="margin:24px 0 0;font-family:'Big Shoulders Display','Anton','Arial Narrow',sans-serif;font-weight:800;font-size:clamp(58px,10.5vw,164px);line-height:.88;letter-spacing:.01em;text-transform:uppercase;color:#F2E9DD;animation:bbUp .95s cubic-bezier(.16,1,.3,1) .15s both;text-wrap:balance">The yard, <span style="color:rgba(242,233,221,.07);-webkit-text-stroke:1.5px rgba(242,233,221,.85)">in frames.</span></h1>
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 40px;margin-top:30px;animation:bbUp .9s cubic-bezier(.16,1,.3,1) .3s both">
+        <p style="margin:0;max-width:620px;font-size:clamp(15.5px,1.3vw,18px);line-height:1.8;color:#C9BBAC;text-wrap:pretty">The kiln, the drying rows, the loads leaving at dawn. A living archive — drop your own photos into the empty frames and they stay.</p>
+        <span style="font-family:'Gulzar','Noto Nastaliq Urdu',serif;font-size:clamp(24px,3vw,40px);line-height:1.8;color:var(--bbA,#E4592B)">ہمارا بھٹہ</span>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Gallery — Grid" style="background:#150F0B;border-top:1px solid rgba(242,233,221,.1);padding:clamp(48px,6vw,80px) clamp(20px,5vw,72px) clamp(70px,9vw,120px)">
+    <div style="max-width:1500px;margin:0 auto;columns:320px 4;column-gap:18px">
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/Gemini_Generated_Image_ny03b4ny03b4ny03-e1763758402699.png" alt="The kiln at Burewala Bricks" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 01 — THE KILN</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/Gemini_Generated_Image_jr7gr2jr7gr2jr7g-e1763758748752.png" alt="Stacked bricks" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 02 — FRESH STACKS</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px dashed rgba(242,233,221,.28);background:#1B1410">
+        <image-slot id="gal-slot-1" shape="rect" placeholder="Drop a kiln photo here" style="display:block;width:100%;height:300px"></image-slot>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--bbA,#E4592B)">PLATE 03 — YOUR PHOTO</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/WhatsApp-Image-2021-10-10-at-2.28.19-PM-e1761681546214.jpeg" alt="From the yard archive" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 04 — YARD ARCHIVE</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_uasltcuasltcuasl.jpg" alt="Machine-made bricks" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 05 — MACHINE LINE</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/WhatsApp-Image-2021-10-27-at-8.48.30-PM.jpeg" alt="Bricks ready for delivery" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 06 — READY TO LOAD</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px dashed rgba(242,233,221,.28);background:#1B1410">
+        <image-slot id="gal-slot-2" shape="rect" placeholder="Drop a delivery photo here" style="display:block;width:100%;height:240px"></image-slot>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--bbA,#E4592B)">PLATE 07 — YOUR PHOTO</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/Gemini_Generated_Image_autuhtautuhtautu.png" alt="Kiln chambers" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 08 — THE CHAMBERS</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-22-at-20.26.34-e1763758581103.jpeg" alt="The yard today" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 09 — THE YARD TODAY</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px solid rgba(242,233,221,.12);background:#1B1410">
+        <span style="display:block;overflow:hidden">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_e8y26me8y26me8y2.jpg" alt="Hand-made khaprail tiles" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.88) contrast(1.06);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.05)">
+        </span>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#9C8D7F">PLATE 10 — KHAPRAIL</figcaption>
+      </figure>
+      <figure data-reveal="up" style="margin:0 0 18px;break-inside:avoid;border:1px dashed rgba(242,233,221,.28);background:#1B1410">
+        <image-slot id="gal-slot-3" shape="rect" placeholder="Drop a team or site photo here" style="display:block;width:100%;height:320px"></image-slot>
+        <figcaption style="padding:13px 15px;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:var(--bbA,#E4592B)">PLATE 11 — YOUR PHOTO</figcaption>
+      </figure>
+    </div>
+    <p data-reveal="fade" style="max-width:1500px;margin:26px auto 0;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#6E6155">MORE EVERY WEEK ON <a href="https://www.instagram.com/burewalabricks/" target="_blank" rel="noopener" style="color:#9C8D7F">INSTAGRAM ↗</a> AND <a href="https://www.tiktok.com/@burewalabricks" target="_blank" rel="noopener" style="color:#9C8D7F">TIKTOK ↗</a></p>
+  </section>
+</main>
+<dc-import name="SiteFooter" hint-size="100%,900px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() {
+    import('./site.js').then((m) => { this._fx = m.initFx(document); }).catch(() => {});
+  }
+  componentWillUnmount() { if (this._fx) this._fx(); }
+  renderVals() {
+    return { imgErr: (e) => { e.currentTarget.style.display = 'none'; } };
+  }
+}
+</script>
+</body>
+</html>

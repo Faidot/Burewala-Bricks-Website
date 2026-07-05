@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Burewala Bricks — Light Variant | Brick Kiln in South Punjab, Since 1983</title>
+  <meta name="description" content="Light-theme concept of the Burewala Bricks home page. Strong, clean bricks fired in modern zigzag kilns — trusted across Punjab since 1983.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Archivo:wght@400;500;600;700&amp;family=Big+Shoulders+Display:wght@500;600;700;800&amp;family=Gulzar&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #F4EBDC; color: #201811; font-family: 'Archivo', 'Helvetica Neue', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    ::selection { background: #E4592B; color: #FFFDF8; }
+    @keyframes bbUp { from { opacity: 0; transform: translateY(38px); } to { opacity: 1; transform: none; } }
+    @keyframes bbGlow { 0%, 100% { opacity: .65; } 50% { opacity: 1; } }
+    @keyframes bbMq { to { transform: translateX(-50%); } }
+  </style>
+</helmet>
+<header style="position:fixed;top:0;left:0;right:0;z-index:50;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 28px;padding:14px clamp(16px,4vw,44px);background:rgba(244,235,220,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(32,24,17,.14)">
+  <a href="#" style="display:inline-flex;align-items:center;gap:12px;text-decoration:none">
+    <img src="logo.png" alt="" style="width:44px;height:44px;flex:none;border-radius:50%;box-shadow:0 3px 12px rgba(32,24,17,.25)">
+    <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:21px;letter-spacing:.06em;text-transform:uppercase;color:#201811">Burewala Bricks</span>
+  </a>
+  <nav aria-label="Site" style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 20px">
+    <a href="About.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#5F5142;text-decoration:none;transition:color .2s" style-hover="color:#C24E22">About</a>
+    <a href="Products.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#5F5142;text-decoration:none;transition:color .2s" style-hover="color:#C24E22">Products</a>
+    <a href="Process.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#5F5142;text-decoration:none;transition:color .2s" style-hover="color:#C24E22">Process</a>
+    <a href="Zigzag.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#5F5142;text-decoration:none;transition:color .2s" style-hover="color:#C24E22">Zigzag</a>
+    <a href="Gallery.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#5F5142;text-decoration:none;transition:color .2s" style-hover="color:#C24E22">Gallery</a>
+    <a href="Projects.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#5F5142;text-decoration:none;transition:color .2s" style-hover="color:#C24E22">Projects</a>
+    <a href="Contact.dc.html#quote" style="background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;padding:12px 16px;text-decoration:none;transition:background .25s" style-hover="background:var(--bbA,#E4592B)">Today's Rate</a>
+  </nav>
+</header>
+<main>
+  <section data-screen-label="Light — Hero" style="position:relative;overflow:hidden;background:#F4EBDC;padding:clamp(150px,20vh,210px) clamp(20px,5vw,72px) 0">
+    <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(50% 44% at 84% -8%,rgba(228,89,43,.2),transparent 70%);animation:bbGlow 8s ease-in-out infinite"></div>
+    <div style="position:relative;max-width:1500px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:clamp(36px,5vw,80px);align-items:end">
+      <div style="padding-bottom:clamp(40px,6vw,72px)">
+        <p style="margin:0;display:inline-flex;align-items:center;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:#8A7864;animation:bbUp .9s cubic-bezier(.16,1,.3,1) .05s both"><span aria-hidden="true" style="width:13px;height:7px;background:var(--bbA,#E4592B)"></span>Est. 1983 — Burewala · Vehari · Punjab</p>
+        <h1 style="margin:22px 0 0;font-family:'Big Shoulders Display','Anton','Arial Narrow',sans-serif;font-weight:800;text-transform:uppercase;line-height:.86;letter-spacing:.01em">
+          <span style="display:block;font-size:clamp(64px,10.5vw,170px);color:#201811;animation:bbUp .95s cubic-bezier(.16,1,.3,1) .14s both">Burewala</span>
+          <span style="display:flex;flex-wrap:wrap;align-items:baseline;gap:6px clamp(16px,2.5vw,38px);animation:bbUp .95s cubic-bezier(.16,1,.3,1) .24s both">
+            <span style="font-size:clamp(64px,10.5vw,170px);color:rgba(32,24,17,.04);-webkit-text-stroke:1.5px rgba(32,24,17,.9)">Bricks</span>
+            <sc-if value="{{ showUrdu }}" hint-placeholder-val="{{ true }}">
+              <span style="font-family:'Gulzar','Noto Nastaliq Urdu',serif;font-weight:400;font-size:clamp(24px,3.4vw,50px);line-height:1.7;color:var(--bbA,#E4592B);letter-spacing:0;text-transform:none">بورے والا برکس</span>
+            </sc-if>
+          </span>
+        </h1>
+        <p style="max-width:580px;margin:28px 0 0;font-size:clamp(15.5px,1.3vw,18px);line-height:1.8;color:#5F5142;animation:bbUp .9s cubic-bezier(.16,1,.3,1) .36s both;text-wrap:pretty">Hand-made and machine-made bricks, fired in modern zigzag kilns from the best clay in South Punjab. Building homes, shops and cities with strength and honesty — for over forty years.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:38px;animation:bbUp .9s cubic-bezier(.16,1,.3,1) .48s both">
+          <a href="Products.dc.html" style="display:inline-flex;align-items:center;gap:10px;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:19px 28px;text-decoration:none;transition:background .25s,transform .25s" style-hover="background:var(--bbA,#E4592B);transform:translateY(-3px)">Explore Our Bricks <span aria-hidden="true">→</span></a>
+          <a href="Contact.dc.html#quote" style="display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(32,24,17,.35);color:#201811;font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:18px 28px;text-decoration:none;transition:border-color .25s,color .25s,transform .25s" style-hover="border-color:#C24E22;color:#C24E22;transform:translateY(-3px)">Get Today's Rate</a>
+        </div>
+      </div>
+      <div style="position:relative;padding:0 0 0 10%;align-self:stretch;display:flex;align-items:flex-end">
+        <div data-reveal="wipe" style="position:relative;overflow:hidden;background:#E3D5BE;width:100%">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_ny03b4ny03b4ny03.jpg" alt="The Burewala Bricks kiln yard" onError="{{ imgErr }}" style="display:block;width:100%;height:100%;min-height:340px;max-height:560px;object-fit:cover;object-position:center 62%;filter:saturate(.9) contrast(1.05)">
+        </div>
+        <span data-reveal="fade" data-reveal-delay="300" style="position:absolute;top:8%;left:2%;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.24em;padding:12px 15px;transform:rotate(-4deg)">EST. 1983</span>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Light — Marquee" aria-hidden="true" style="overflow:hidden;background:#201811;padding:20px 0">
+    <div style="display:flex;width:max-content;animation:bbMq 30s linear infinite">
+      <div style="display:flex;align-items:center;gap:38px;padding-right:38px">
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:#F4EBDC;white-space:nowrap">Since 1983</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Gulzar','Noto Nastaliq Urdu',serif;font-size:23px;color:#C9BBAC;white-space:nowrap;line-height:1.8">بورے والا برکس</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:#F4EBDC;white-space:nowrap">80% Class-1 Awal</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:rgba(244,235,220,.4);white-space:nowrap">Modern Zigzag Kiln</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:#F4EBDC;white-space:nowrap">Hand-Made &amp; Machine-Made</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:rgba(244,235,220,.4);white-space:nowrap">Punjab-Wide Delivery</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+      </div>
+      <div style="display:flex;align-items:center;gap:38px;padding-right:38px">
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:#F4EBDC;white-space:nowrap">Since 1983</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Gulzar','Noto Nastaliq Urdu',serif;font-size:23px;color:#C9BBAC;white-space:nowrap;line-height:1.8">بورے والا برکس</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:#F4EBDC;white-space:nowrap">80% Class-1 Awal</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:rgba(244,235,220,.4);white-space:nowrap">Modern Zigzag Kiln</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:#F4EBDC;white-space:nowrap">Hand-Made &amp; Machine-Made</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+        <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.07em;text-transform:uppercase;color:rgba(244,235,220,.4);white-space:nowrap">Punjab-Wide Delivery</span><span style="width:13px;height:8px;background:var(--bbA,#E4592B);flex:none"></span>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Light — Numbers" style="background:#F4EBDC;padding:clamp(64px,8vw,110px) clamp(20px,5vw,72px)">
+    <div style="max-width:1500px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,215px),1fr));gap:36px">
+      <div data-reveal="up" style="border-left:1px solid rgba(32,24,17,.2);padding-left:22px">
+        <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:clamp(64px,6.5vw,104px);line-height:.9;color:#201811"><span data-count="40">40</span><span style="color:var(--bbA,#E4592B)">+</span></span>
+        <span style="display:block;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A7864">Years of firing clay</span>
+      </div>
+      <div data-reveal="up" data-reveal-delay="90" style="border-left:1px solid rgba(32,24,17,.2);padding-left:22px">
+        <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:clamp(64px,6.5vw,104px);line-height:.9;color:#201811"><span data-count="80">80</span><span style="color:var(--bbA,#E4592B)">%</span></span>
+        <span style="display:block;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A7864">Class-1 Awal output</span>
+      </div>
+      <div data-reveal="up" data-reveal-delay="180" style="border-left:1px solid rgba(32,24,17,.2);padding-left:22px">
+        <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:clamp(64px,6.5vw,104px);line-height:.9;color:#201811"><span data-count="8">8</span><span style="color:var(--bbA,#E4592B)">+</span></span>
+        <span style="display:block;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A7864">Cities served across Punjab</span>
+      </div>
+      <div data-reveal="up" data-reveal-delay="270" style="border-left:1px solid rgba(32,24,17,.2);padding-left:22px">
+        <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:clamp(64px,6.5vw,104px);line-height:.9;color:#201811"><span>0</span><span data-count="4">4</span></span>
+        <span style="display:block;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#8A7864">Product lines, one standard</span>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Light — Our story" style="background:#EDE2CF;padding:clamp(70px,9vw,130px) clamp(20px,5vw,72px)">
+    <div style="max-width:1500px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(44px,6vw,90px);align-items:center">
+      <div>
+        <p data-reveal="up" style="margin:0;display:inline-flex;align-items:center;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#8A7864"><span aria-hidden="true" style="width:13px;height:7px;background:var(--bbA,#E4592B)"></span>Our story — ہماری کہانی</p>
+        <h2 data-reveal="up" data-reveal-delay="80" style="margin:20px 0 0;font-family:'Big Shoulders Display','Anton','Arial Narrow',sans-serif;font-weight:800;font-size:clamp(42px,4.8vw,76px);line-height:.94;letter-spacing:.01em;text-transform:uppercase;text-wrap:balance">One of South Punjab's <span style="color:var(--bbA,#E4592B)">most trusted</span> kilns.</h2>
+        <p data-reveal="up" data-reveal-delay="160" style="margin:28px 0 0;font-size:16.5px;line-height:1.85;color:#5F5142;max-width:560px;text-wrap:pretty">Started by <strong style="color:#201811">Sufi Muhammad Aslam (Late)</strong> in 1983, Burewala Bricks is run today by his family with the same honesty and hard work. For more than forty years we have made strong, clean, high-quality bricks for houses, shops and buildings all over Punjab.</p>
+        <p data-reveal="up" data-reveal-delay="220" style="margin:18px 0 0;font-size:16.5px;line-height:1.85;color:#5F5142;max-width:560px;text-wrap:pretty">The best local clay. A modern zigzag kiln. And a simple rule that has never changed — every brick leaving the yard must deserve the name on it.</p>
+        <a data-reveal="up" data-reveal-delay="280" href="About.dc.html" style="display:inline-flex;align-items:center;gap:10px;margin-top:36px;color:#201811;font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;border-bottom:2px solid var(--bbA,#E4592B);padding-bottom:8px;transition:color .25s,gap .25s" style-hover="color:#C24E22;gap:16px">Read our history <span aria-hidden="true">→</span></a>
+      </div>
+      <div style="position:relative;padding:0 0 13% 12%">
+        <div data-reveal="wipe" style="position:relative;overflow:hidden;background:#DACBB4">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/Gemini_Generated_Image_jr7gr2jr7gr2jr7g-e1763758748752.png" alt="Stacked bricks at the Burewala Bricks kiln" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:4/4.6;object-fit:cover;filter:saturate(.92) contrast(1.05)">
+        </div>
+        <div data-reveal="up" data-reveal-delay="200" style="position:absolute;left:0;bottom:0;width:46%;border:7px solid #EDE2CF;overflow:hidden;background:#DACBB4;box-shadow:0 24px 60px rgba(32,24,17,.28)">
+          <img src="https://burewalabricks.com/wp-content/uploads/2025/10/WhatsApp-Image-2021-10-27-at-8.48.30-PM.jpeg" alt="Bricks loaded for delivery" loading="lazy" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;filter:saturate(.92) contrast(1.05)">
+        </div>
+        <span data-reveal="fade" data-reveal-delay="320" style="position:absolute;top:6%;right:-2%;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.24em;padding:12px 15px;transform:rotate(4deg)">FAMILY-RUN</span>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Light — Products" style="background:#F4EBDC;padding:clamp(70px,9vw,130px) clamp(20px,5vw,72px)">
+    <div style="max-width:1500px;margin:0 auto">
+      <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 40px">
+        <div>
+          <p data-reveal="up" style="margin:0;display:inline-flex;align-items:center;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#8A7864"><span aria-hidden="true" style="width:13px;height:7px;background:var(--bbA,#E4592B)"></span>Our products</p>
+          <h2 data-reveal="up" data-reveal-delay="80" style="margin:18px 0 0;font-family:'Big Shoulders Display','Anton','Arial Narrow',sans-serif;font-weight:800;font-size:clamp(44px,6vw,92px);line-height:.92;letter-spacing:.01em;text-transform:uppercase;color:#201811">What we make</h2>
+        </div>
+        <a data-reveal="up" data-reveal-delay="140" href="Products.dc.html" style="display:inline-flex;align-items:center;gap:10px;color:#5F5142;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid rgba(32,24,17,.3);padding-bottom:7px;transition:color .25s,border-color .25s" style-hover="color:#C24E22;border-color:#C24E22">All bricks &amp; details <span aria-hidden="true">↗</span></a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,265px),1fr));gap:18px;margin-top:clamp(36px,5vw,60px)">
+        <a href="Products.dc.html#machine-bricks" data-reveal="up" style="display:block;text-decoration:none;border:1px solid rgba(32,24,17,.14);background:#FFFDF8;transition:transform .35s,border-color .35s,box-shadow .35s" style-hover="transform:translateY(-6px);border-color:var(--bbA,#E4592B);box-shadow:0 24px 50px rgba(32,24,17,.14)">
+          <span style="display:block;position:relative;aspect-ratio:4/4.4;overflow:hidden;background:#E3D5BE">
+            <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_uasltcuasltcuasl.jpg" alt="Machine-made bricks" loading="lazy" onError="{{ imgErr }}" style="width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.04);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.07)">
+            <span style="position:absolute;top:14px;left:14px;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;padding:8px 11px">01</span>
+          </span>
+          <span style="display:block;padding:22px 22px 26px">
+            <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.03em;text-transform:uppercase;color:#201811">Machine-Made Bricks</span>
+            <span style="display:block;margin-top:8px;font-size:13.5px;line-height:1.65;color:#8A7864">High density · uniform shape · sharp square edges</span>
+            <span style="display:inline-block;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--bbA,#E4592B)">View details ↗</span>
+          </span>
+        </a>
+        <a href="Products.dc.html#hand-bricks" data-reveal="up" data-reveal-delay="90" style="display:block;text-decoration:none;border:1px solid rgba(32,24,17,.14);background:#FFFDF8;transition:transform .35s,border-color .35s,box-shadow .35s" style-hover="transform:translateY(-6px);border-color:var(--bbA,#E4592B);box-shadow:0 24px 50px rgba(32,24,17,.14)">
+          <span style="display:block;position:relative;aspect-ratio:4/4.4;overflow:hidden;background:#E3D5BE">
+            <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_lyojqblyojqblyoj.jpg" alt="Hand-made bricks" loading="lazy" onError="{{ imgErr }}" style="width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.04);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.07)">
+            <span style="position:absolute;top:14px;left:14px;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;padding:8px 11px">02</span>
+          </span>
+          <span style="display:block;padding:22px 22px 26px">
+            <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.03em;text-transform:uppercase;color:#201811">Hand-Made Bricks</span>
+            <span style="display:block;margin-top:8px;font-size:13.5px;line-height:1.65;color:#8A7864">Traditional strength, molded the way it began</span>
+            <span style="display:inline-block;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--bbA,#E4592B)">View details ↗</span>
+          </span>
+        </a>
+        <a href="Products.dc.html#machine-tiles" data-reveal="up" data-reveal-delay="180" style="display:block;text-decoration:none;border:1px solid rgba(32,24,17,.14);background:#FFFDF8;transition:transform .35s,border-color .35s,box-shadow .35s" style-hover="transform:translateY(-6px);border-color:var(--bbA,#E4592B);box-shadow:0 24px 50px rgba(32,24,17,.14)">
+          <span style="display:block;position:relative;aspect-ratio:4/4.4;overflow:hidden;background:#E3D5BE">
+            <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_8vy5mx8vy5mx8vy5.jpg" alt="Machine-made roof tiles" loading="lazy" onError="{{ imgErr }}" style="width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.04);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.07)">
+            <span style="position:absolute;top:14px;left:14px;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;padding:8px 11px">03</span>
+          </span>
+          <span style="display:block;padding:22px 22px 26px">
+            <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.03em;text-transform:uppercase;color:#201811">Machine-Made Tiles</span>
+            <span style="display:block;margin-top:8px;font-size:13.5px;line-height:1.65;color:#8A7864">Crisp profiles for modern facades &amp; floors</span>
+            <span style="display:inline-block;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--bbA,#E4592B)">View details ↗</span>
+          </span>
+        </a>
+        <a href="Products.dc.html#hand-tiles" data-reveal="up" data-reveal-delay="270" style="display:block;text-decoration:none;border:1px solid rgba(32,24,17,.14);background:#FFFDF8;transition:transform .35s,border-color .35s,box-shadow .35s" style-hover="transform:translateY(-6px);border-color:var(--bbA,#E4592B);box-shadow:0 24px 50px rgba(32,24,17,.14)">
+          <span style="display:block;position:relative;aspect-ratio:4/4.4;overflow:hidden;background:#E3D5BE">
+            <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_e8y26me8y26me8y2.jpg" alt="Hand-made roof tiles" loading="lazy" onError="{{ imgErr }}" style="width:100%;height:100%;object-fit:cover;filter:saturate(.92) contrast(1.04);transition:transform .8s cubic-bezier(.16,1,.3,1)" style-hover="transform:scale(1.07)">
+            <span style="position:absolute;top:14px;left:14px;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;padding:8px 11px">04</span>
+          </span>
+          <span style="display:block;padding:22px 22px 26px">
+            <span style="display:block;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:27px;letter-spacing:.03em;text-transform:uppercase;color:#201811">Hand-Made Tiles</span>
+            <span style="display:block;margin-top:8px;font-size:13.5px;line-height:1.65;color:#8A7864">Khaprail warmth — rustic, classic, cool roofs</span>
+            <span style="display:inline-block;margin-top:16px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--bbA,#E4592B)">View details ↗</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Light — Zigzag technology" style="position:relative;overflow:hidden;background:#201811;color:#EFE6D9;padding:clamp(70px,9vw,130px) clamp(20px,5vw,72px)">
+    <div aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(60% 70% at 85% 100%,rgba(226,88,32,.24),transparent 65%)"></div>
+    <div style="position:relative;max-width:1500px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(44px,6vw,90px);align-items:center">
+      <div>
+        <p data-reveal="up" style="margin:0;display:inline-flex;align-items:center;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#9C8D7F"><span aria-hidden="true" style="width:13px;height:7px;background:var(--bbA,#E4592B)"></span>Technology</p>
+        <h2 data-reveal="up" data-reveal-delay="80" style="margin:18px 0 0;font-family:'Big Shoulders Display','Anton','Arial Narrow',sans-serif;font-weight:800;font-size:clamp(44px,5.5vw,86px);line-height:.92;letter-spacing:.01em;text-transform:uppercase;color:#F2E9DD;text-wrap:balance">The zigzag <span style="color:var(--bbA,#E4592B)">difference</span></h2>
+        <p data-reveal="up" data-reveal-delay="160" style="margin:26px 0 0;font-size:16.5px;line-height:1.85;color:#C9BBAC;max-width:560px;text-wrap:pretty">Most kilns push smoke and wasted heat straight into the sky. Ours forces air through a zigzag maze of brick chambers — burning hotter, cleaner and more evenly. Less coal in, more Class-1 bricks out, and cleaner air over the villages around us.</p>
+        <div data-reveal="up" data-reveal-delay="220" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:28px">
+          <span style="border:1px solid rgba(242,233,221,.22);color:#EFE6D9;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;padding:10px 13px">~20% LESS COAL*</span>
+          <span style="border:1px solid rgba(242,233,221,.22);color:#EFE6D9;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;padding:10px 13px">FAR LESS SMOKE</span>
+          <span style="border:1px solid rgba(242,233,221,.22);color:#EFE6D9;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;padding:10px 13px">80% CLASS-1 OUTPUT</span>
+        </div>
+        <a data-reveal="up" data-reveal-delay="280" href="Zigzag.dc.html" style="display:inline-flex;align-items:center;gap:10px;margin-top:36px;background:var(--bbA,#E4592B);color:#201811;font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:18px 28px;text-decoration:none;transition:background .25s,transform .25s" style-hover="background:#FF7B42;transform:translateY(-3px)">See the technology <span aria-hidden="true">→</span></a>
+        <p data-reveal="fade" data-reveal-delay="340" style="margin:22px 0 0;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;color:#6E6155">*TYPICAL SAVING VS. TRADITIONAL FIXED-CHIMNEY KILNS</p>
+      </div>
+      <div data-reveal="up" data-reveal-delay="150">
+        <svg viewBox="0 0 640 340" role="img" aria-label="Simplified diagram of airflow zigzagging through kiln chambers" style="display:block;width:100%;height:auto">
+          <text x="24" y="46" fill="#9C8D7F" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em">AIR IN →</text>
+          <text x="616" y="46" text-anchor="end" fill="#9C8D7F" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em">→ TO CHIMNEY</text>
+          <rect x="24" y="70" width="592" height="210" fill="none" stroke="rgba(242,233,221,.28)" stroke-width="1.5"></rect>
+          <rect x="70" y="95" width="64" height="160" fill="rgba(226,88,32,.05)" stroke="rgba(242,233,221,.25)" stroke-width="1"></rect>
+          <rect x="158" y="95" width="64" height="160" fill="rgba(226,88,32,.08)" stroke="rgba(242,233,221,.25)" stroke-width="1"></rect>
+          <rect x="246" y="95" width="64" height="160" fill="rgba(226,88,32,.16)" stroke="rgba(242,233,221,.25)" stroke-width="1"></rect>
+          <rect x="334" y="95" width="64" height="160" fill="rgba(226,88,32,.16)" stroke="rgba(242,233,221,.25)" stroke-width="1"></rect>
+          <rect x="422" y="95" width="64" height="160" fill="rgba(226,88,32,.08)" stroke="rgba(242,233,221,.25)" stroke-width="1"></rect>
+          <rect x="510" y="95" width="64" height="160" fill="rgba(226,88,32,.05)" stroke="rgba(242,233,221,.25)" stroke-width="1"></rect>
+          <polyline data-draw points="24,175 102,112 190,238 278,112 366,238 454,112 542,238 616,175" fill="none" stroke="#FF7B42" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"></polyline>
+          <g>
+            <circle r="11" fill="rgba(255,123,66,.22)"></circle>
+            <circle r="4.5" fill="#FF9A5C"></circle>
+            <animateMotion dur="7.5s" repeatCount="indefinite" path="M 24,175 L 102,112 L 190,238 L 278,112 L 366,238 L 454,112 L 542,238 L 616,175"></animateMotion>
+          </g>
+          <text x="102" y="308" text-anchor="middle" fill="#6E6155" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em">COOLING</text>
+          <text x="320" y="308" text-anchor="middle" fill="#C9BBAC" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em">FIRING ZONE ~980°C</text>
+          <text x="538" y="308" text-anchor="middle" fill="#6E6155" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em">PREHEATING</text>
+        </svg>
+        <p style="margin:14px 0 0;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;color:#6E6155;text-align:center">AIRFLOW THROUGH THE KILN — SIMPLIFIED</p>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Light — Testimonials" style="background:#F4EBDC;padding:clamp(70px,9vw,130px) clamp(20px,5vw,72px)">
+    <div style="max-width:1500px;margin:0 auto">
+      <p data-reveal="up" style="margin:0;display:inline-flex;align-items:center;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:#8A7864"><span aria-hidden="true" style="width:13px;height:7px;background:var(--bbA,#E4592B)"></span>Word of the trade</p>
+      <h2 data-reveal="up" data-reveal-delay="80" style="margin:18px 0 0;font-family:'Big Shoulders Display','Anton','Arial Narrow',sans-serif;font-weight:800;font-size:clamp(42px,5.5vw,86px);line-height:.92;letter-spacing:.01em;text-transform:uppercase;color:#201811">Trusted across Punjab</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px;margin-top:clamp(36px,5vw,56px)">
+        <figure data-reveal="up" style="margin:0;border:1px solid rgba(32,24,17,.14);background:#FFFDF8;padding:30px 28px;display:flex;flex-direction:column">
+          <span aria-hidden="true" style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:66px;line-height:.5;color:var(--bbA,#E4592B)">“</span>
+          <blockquote style="margin:20px 0 0;font-size:16px;line-height:1.8;color:#4A3E32;flex:1;text-wrap:pretty">We counted a load brick by brick — not one raw piece in fifty thousand. That is why we come back to Burewala Bricks every single project.</blockquote>
+          <figcaption style="margin-top:24px;border-top:1px solid rgba(32,24,17,.12);padding-top:16px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;color:#201811">HAJI RIAZ AHMAD</span>
+            <span style="display:block;margin-top:5px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#8A7864">CONTRACTOR · LAHORE</span>
+          </figcaption>
+        </figure>
+        <figure data-reveal="up" data-reveal-delay="90" style="margin:0;border:1px solid rgba(32,24,17,.14);background:#FFFDF8;padding:30px 28px;display:flex;flex-direction:column">
+          <span aria-hidden="true" style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:66px;line-height:.5;color:var(--bbA,#E4592B)">“</span>
+          <blockquote style="margin:20px 0 0;font-size:16px;line-height:1.8;color:#4A3E32;flex:1;text-wrap:pretty">The ring of a good Awal brick tells you everything — theirs sound like steel. Our walls went up straight and have stayed dry through two monsoons.</blockquote>
+          <figcaption style="margin-top:24px;border-top:1px solid rgba(32,24,17,.12);padding-top:16px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;color:#201811">M. IMRAN SALEEM</span>
+            <span style="display:block;margin-top:5px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#8A7864">HOMEOWNER · 10 MARLA, BUREWALA</span>
+          </figcaption>
+        </figure>
+        <figure data-reveal="up" data-reveal-delay="180" style="margin:0;border:1px solid rgba(32,24,17,.14);background:#FFFDF8;padding:30px 28px;display:flex;flex-direction:column">
+          <span aria-hidden="true" style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:66px;line-height:.5;color:var(--bbA,#E4592B)">“</span>
+          <blockquote style="margin:20px 0 0;font-size:16px;line-height:1.8;color:#4A3E32;flex:1;text-wrap:pretty">Trucks at seven in the morning, exactly as promised. My masons never stood idle once. In this business, that is rare.</blockquote>
+          <figcaption style="margin-top:24px;border-top:1px solid rgba(32,24,17,.12);padding-top:16px">
+            <span style="display:block;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.14em;color:#201811">CH. SHAKEEL ANJUM</span>
+            <span style="display:block;margin-top:5px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#8A7864">BUILDER · SAHIWAL</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Light — CTA" style="background:var(--bbA,#E4592B);color:#201811;padding:clamp(70px,9vw,120px) clamp(20px,5vw,72px)">
+    <div style="max-width:1500px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px 60px">
+      <div>
+        <p data-reveal="up" style="margin:0;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:rgba(32,24,17,.7)">Rates move with coal — lock yours today</p>
+        <h2 data-reveal="up" data-reveal-delay="80" style="margin:14px 0 0;font-family:'Big Shoulders Display','Anton','Arial Narrow',sans-serif;font-weight:800;font-size:clamp(44px,6vw,96px);line-height:.9;letter-spacing:.01em;text-transform:uppercase;text-wrap:balance">Talk to the kiln, not a middleman.</h2>
+        <a data-reveal="up" data-reveal-delay="140" href="tel:+923457721816" style="display:inline-block;margin-top:22px;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:clamp(34px,4vw,62px);letter-spacing:.03em;color:#201811;text-decoration:none">+92 345 7721816</a>
+      </div>
+      <div data-reveal="up" data-reveal-delay="200" style="display:flex;flex-direction:column;gap:14px;min-width:min(100%,290px)">
+        <a href="Contact.dc.html#quote" style="display:inline-flex;justify-content:center;align-items:center;gap:10px;background:#201811;color:#F4EBDC;font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:20px 30px;text-decoration:none;transition:transform .25s" style-hover="transform:translateY(-3px)">Request a quote <span aria-hidden="true">→</span></a>
+        <a href="https://wa.me/923457721816?text=Assalam%20o%20Alaikum%20Burewala%20Bricks!%20Please%20share%20today%27s%20brick%20rates." target="_blank" rel="noopener" style="display:inline-flex;justify-content:center;align-items:center;gap:10px;border:2px solid #201811;color:#201811;font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:18px 30px;text-decoration:none;transition:background .25s,color .25s" style-hover="background:#201811;color:#F4EBDC">WhatsApp the yard ↗</a>
+        <sc-if value="{{ showUrdu }}" hint-placeholder-val="{{ true }}">
+          <span style="text-align:center;font-family:'Gulzar','Noto Nastaliq Urdu',serif;font-size:22px;line-height:1.8;color:rgba(32,24,17,.75)">آج ہی ریٹ لاک کریں</span>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+</main>
+<footer style="background:#201811;color:#EFE6D9;padding:clamp(56px,7vw,90px) clamp(20px,5vw,72px) 34px">
+  <div style="max-width:1500px;margin:0 auto">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:36px 60px">
+      <div style="max-width:420px">
+        <span style="display:inline-flex;align-items:center;gap:12px">
+          <img src="logo.png" alt="" style="width:44px;height:44px;flex:none;border-radius:50%;box-shadow:0 3px 12px rgba(32,24,17,.25)">
+          <span style="font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:800;font-size:24px;letter-spacing:.06em;text-transform:uppercase;color:#F2E9DD">Burewala Bricks</span>
+        </span>
+        <p style="margin:16px 0 0;font-size:14px;line-height:1.8;color:#9C8D7F">Strong, clean bricks and roof tiles, fired in modern zigzag kilns on Lahore Road, Hajian Wali — since 1983.</p>
+        <sc-if value="{{ showUrdu }}" hint-placeholder-val="{{ true }}">
+          <p style="margin:14px 0 0;font-family:'Gulzar','Noto Nastaliq Urdu',serif;font-size:20px;line-height:1.9;color:#C9BBAC">مٹی، آگ اور محنت — 1983 سے</p>
+        </sc-if>
+      </div>
+      <nav aria-label="Footer" style="display:grid;grid-template-columns:repeat(2,auto);gap:12px 44px">
+        <a href="About.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C9BBAC;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">About</a>
+        <a href="Products.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C9BBAC;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">Products</a>
+        <a href="Process.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C9BBAC;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">Process</a>
+        <a href="Zigzag.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C9BBAC;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">Zigzag Kiln</a>
+        <a href="Gallery.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C9BBAC;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">Gallery</a>
+        <a href="Projects.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C9BBAC;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">Projects</a>
+        <a href="Contact.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#C9BBAC;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">Contact</a>
+        <a href="Contact.dc.html#quote" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--bbA,#FF7B42);text-decoration:none">Get a Quote</a>
+      </nav>
+      <div>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.24em;color:#6E6155">CALL — SAT–THU 06:00–18:00</span>
+        <a href="tel:+923457721816" style="display:block;margin-top:10px;font-family:'Big Shoulders Display','Anton',sans-serif;font-weight:700;font-size:30px;letter-spacing:.04em;color:#F2E9DD;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">+92 345 7721816</a>
+        <a href="mailto:info@burewalabricks.com" style="display:block;margin-top:8px;font-size:14px;color:#9C8D7F;text-decoration:none;transition:color .2s" style-hover="color:#FF7B42">info@burewalabricks.com</a>
+        <p style="margin:14px 0 0;font-size:13.5px;line-height:1.75;color:#9C8D7F">Lahore Rd, Hajian Wali, Burewala,<br>Vehari, Punjab 61010 — Pakistan</p>
+      </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 30px;margin-top:48px;border-top:1px solid rgba(239,230,217,.14);padding-top:22px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#6E6155">
+      <span>© 2026 BUREWALA BRICKS — ALL RIGHTS RESERVED</span>
+      <span>30.15°N 72.68°E — FIRED IN SOUTH PUNJAB</span>
+    </div>
+  </div>
+</footer>
+<div style="position:fixed;left:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:4px;background:rgba(32,24,17,.94);border:1px solid rgba(244,235,220,.16);border-radius:999px;padding:5px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.14em">
+  <span style="color:#8A7864;padding:7px 6px 7px 12px">VARIANT</span>
+  <a href="Home.dc.html" style="color:#C9BBAC;text-decoration:none;padding:7px 10px;border-radius:999px;transition:color .2s" style-hover="color:#FF7B42">DARK</a>
+  <a href="Home%20Light.dc.html" style="background:var(--bbA,#E4592B);color:#201811;font-weight:600;text-decoration:none;padding:7px 10px;border-radius:999px">LIGHT</a>
+  <a href="Home%20Curvy.dc.html" style="color:#C9BBAC;text-decoration:none;padding:7px 10px;border-radius:999px;transition:color .2s" style-hover="color:#FF7B42">CURVY</a>
+  <a href="Home%20Minimal.dc.html" style="color:#C9BBAC;text-decoration:none;padding:7px 10px 7px 10px;margin-right:2px;border-radius:999px;transition:color .2s" style-hover="color:#FF7B42">MINIMAL</a>
+</div>
+<a href="https://wa.me/923457721816?text=Assalam%20o%20Alaikum%20Burewala%20Bricks!%20Please%20share%20today%27s%20brick%20rates." target="_blank" rel="noopener" aria-label="WhatsApp Burewala Bricks" style="position:fixed;right:16px;bottom:16px;z-index:60;display:inline-flex;align-items:center;gap:9px;background:#1FA855;color:#FFFDF8;font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;letter-spacing:.16em;padding:13px 17px;border-radius:999px;text-decoration:none;box-shadow:0 14px 34px rgba(32,24,17,.3);transition:transform .25s" style-hover="transform:translateY(-3px)">WHATSAPP ↗</a>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;: {&quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#E4592B&quot;, &quot;options&quot;: [&quot;#E4592B&quot;, &quot;#B0371F&quot;, &quot;#C98F3D&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Theme&quot;}, &quot;showUrdu&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Theme&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    this._applyAccent();
+    import('./site.js').then((m) => { this._fx = m.initFx(document); }).catch(() => {});
+  }
+  componentDidUpdate() { this._applyAccent(); }
+  _applyAccent() {
+    const a = this.props.accent;
+    if (a) document.documentElement.style.setProperty('--bbA', a);
+  }
+  componentWillUnmount() { if (this._fx) this._fx(); }
+  renderVals() {
+    return {
+      showUrdu: this.props.showUrdu === undefined ? true : !!this.props.showUrdu,
+      imgErr: (e) => { e.currentTarget.style.display = 'none'; },
+    };
+  }
+}
+</script>
+</body>
+</html>

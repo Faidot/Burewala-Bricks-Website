@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Burewala Bricks — Minimal Variant | Brick Kiln in South Punjab, Since 1983</title>
+  <meta name="description" content="Minimal concept of the Burewala Bricks home page. Strong, clean bricks fired the honest way in Burewala, Punjab — since 1983.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&amp;family=Gulzar&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #FBFAF7; color: #1A1510; font-family: 'Archivo', 'Helvetica Neue', Helvetica, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    ::selection { background: #C24E22; color: #FBFAF7; }
+    @keyframes bbUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+  </style>
+</helmet>
+<header style="position:fixed;top:0;left:0;right:0;z-index:50;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 26px;padding:18px clamp(18px,4vw,48px);background:rgba(251,250,247,.9);backdrop-filter:blur(12px);border-bottom:1px solid rgba(26,21,16,.12)">
+  <a href="#" style="display:inline-flex;align-items:center;gap:11px;font-family:'Archivo',sans-serif;font-weight:600;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#1A1510;text-decoration:none"><img src="logo.png" alt="" style="width:32px;height:32px;border-radius:50%">Burewala Bricks</a>
+  <nav aria-label="Site" style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 22px">
+    <a href="About.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#6B6055;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">About</a>
+    <a href="Products.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#6B6055;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">Products</a>
+    <a href="Process.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#6B6055;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">Process</a>
+    <a href="Gallery.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#6B6055;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">Gallery</a>
+    <a href="Contact.dc.html" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#6B6055;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">Contact</a>
+    <a href="tel:+923457721816" style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.16em;color:var(--bbA,#C24E22);text-decoration:none">+92 345 7721816</a>
+  </nav>
+</header>
+<main>
+  <section data-screen-label="Minimal — Hero" style="padding:clamp(150px,22vh,240px) clamp(20px,6vw,80px) clamp(60px,8vw,110px)">
+    <div style="max-width:1240px;margin:0 auto">
+      <p style="margin:0;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:#8C7F72;animation:bbUp .8s cubic-bezier(.16,1,.3,1) .05s both">Brick kiln — Burewala, Punjab · Est. 1983</p>
+      <h1 style="margin:30px 0 0;font-weight:500;font-size:clamp(38px,6.6vw,98px);line-height:1.04;letter-spacing:-.02em;color:#1A1510;max-width:16ch;animation:bbUp .9s cubic-bezier(.16,1,.3,1) .15s both;text-wrap:balance">Strong, clean bricks, fired the honest way<span style="color:var(--bbA,#C24E22)">.</span></h1>
+      <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:14px 44px;margin-top:38px;animation:bbUp .9s cubic-bezier(.16,1,.3,1) .3s both">
+        <p style="margin:0;max-width:520px;font-size:16.5px;line-height:1.8;color:#6B6055;text-wrap:pretty">Hand-made and machine-made bricks from South Punjab clay, fired in a modern zigzag kiln. Run by one family for forty years.</p>
+        <a href="Contact.dc.html#quote" style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;color:#1A1510;text-decoration:none;border-bottom:1px solid var(--bbA,#C24E22);padding-bottom:6px;transition:color .2s" style-hover="color:var(--bbA,#C24E22)">Request today's rate →</a>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Minimal — Photo" style="padding:0 clamp(20px,6vw,80px)">
+    <div style="max-width:1240px;margin:0 auto">
+      <div data-reveal="wipe" style="overflow:hidden;background:#EAE5DC">
+        <img src="https://burewalabricks.com/wp-content/uploads/2025/11/Gemini_Generated_Image_ny03b4ny03b4ny03.jpg" alt="The Burewala Bricks kiln yard" onError="{{ imgErr }}" style="display:block;width:100%;aspect-ratio:21/9;object-fit:cover;object-position:center 60%;filter:grayscale(.2) saturate(.9) contrast(1.04)">
+      </div>
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 30px;margin-top:12px">
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#8C7F72">THE YARD — LAHORE RD, HAJIAN WALI</span>
+        <span style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#8C7F72">30.15°N 72.68°E</span>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Minimal — Facts" style="padding:clamp(60px,8vw,110px) clamp(20px,6vw,80px) 0">
+    <div style="max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px 40px;border-top:1px solid rgba(26,21,16,.14);border-bottom:1px solid rgba(26,21,16,.14);padding:22px 0">
+      <span data-reveal="fade" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:#1A1510">EST. 1983</span>
+      <span data-reveal="fade" data-reveal-delay="70" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:#1A1510">80% CLASS-1 AWAL</span>
+      <span data-reveal="fade" data-reveal-delay="140" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:#1A1510">ZIGZAG FIRED ~980°C</span>
+      <span data-reveal="fade" data-reveal-delay="210" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;color:#1A1510">8+ CITIES ACROSS PUNJAB</span>
+      <sc-if value="{{ showUrdu }}" hint-placeholder-val="{{ true }}">
+        <span data-reveal="fade" data-reveal-delay="280" style="font-family:'Gulzar','Noto Nastaliq Urdu',serif;font-size:16px;line-height:1.4;color:#6B6055">بورے والا برکس</span>
+      </sc-if>
+    </div>
+  </section>
+  <section data-screen-label="Minimal — Products index" style="padding:clamp(70px,9vw,130px) clamp(20px,6vw,80px)">
+    <div style="max-width:1240px;margin:0 auto">
+      <p data-reveal="fade" style="margin:0;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:#8C7F72">What we make — four products, one standard</p>
+      <div style="margin-top:26px">
+        <a href="Products.dc.html#machine-bricks" data-reveal="up" style="display:grid;grid-template-columns:minmax(44px,60px) 1fr auto;align-items:baseline;gap:10px 24px;padding:30px 0;border-top:1px solid rgba(26,21,16,.14);text-decoration:none;transition:padding-left .3s" style-hover="padding-left:14px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8C7F72">01</span>
+          <span style="font-weight:500;font-size:clamp(24px,3.2vw,42px);letter-spacing:-.015em;color:#1A1510;line-height:1.1">Machine-made bricks <span style="color:var(--bbA,#C24E22)">→</span></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;color:#8C7F72">9" × 4.5" × 3" · AWAL / DOEM</span>
+        </a>
+        <a href="Products.dc.html#hand-bricks" data-reveal="up" data-reveal-delay="60" style="display:grid;grid-template-columns:minmax(44px,60px) 1fr auto;align-items:baseline;gap:10px 24px;padding:30px 0;border-top:1px solid rgba(26,21,16,.14);text-decoration:none;transition:padding-left .3s" style-hover="padding-left:14px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8C7F72">02</span>
+          <span style="font-weight:500;font-size:clamp(24px,3.2vw,42px);letter-spacing:-.015em;color:#1A1510;line-height:1.1">Hand-made bricks <span style="color:var(--bbA,#C24E22)">→</span></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;color:#8C7F72">MOLDED SINCE 1983</span>
+        </a>
+        <a href="Products.dc.html#machine-tiles" data-reveal="up" data-reveal-delay="120" style="display:grid;grid-template-columns:minmax(44px,60px) 1fr auto;align-items:baseline;gap:10px 24px;padding:30px 0;border-top:1px solid rgba(26,21,16,.14);text-decoration:none;transition:padding-left .3s" style-hover="padding-left:14px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8C7F72">03</span>
+          <span style="font-weight:500;font-size:clamp(24px,3.2vw,42px);letter-spacing:-.015em;color:#1A1510;line-height:1.1">Machine-made roof tiles <span style="color:var(--bbA,#C24E22)">→</span></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;color:#8C7F72">FACADES · FLOORS · ROOFS</span>
+        </a>
+        <a href="Products.dc.html#hand-tiles" data-reveal="up" data-reveal-delay="180" style="display:grid;grid-template-columns:minmax(44px,60px) 1fr auto;align-items:baseline;gap:10px 24px;padding:30px 0;border-top:1px solid rgba(26,21,16,.14);border-bottom:1px solid rgba(26,21,16,.14);text-decoration:none;transition:padding-left .3s" style-hover="padding-left:14px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8C7F72">04</span>
+          <span style="font-weight:500;font-size:clamp(24px,3.2vw,42px);letter-spacing:-.015em;color:#1A1510;line-height:1.1">Hand-made khaprail tiles <span style="color:var(--bbA,#C24E22)">→</span></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.16em;color:#8C7F72">VERANDAS · HERITAGE ROOFS</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section data-screen-label="Minimal — Zigzag" style="padding:clamp(30px,4vw,60px) clamp(20px,6vw,80px) clamp(80px,10vw,140px)">
+    <div style="max-width:820px;margin:0 auto;text-align:center">
+      <svg data-draw viewBox="0 0 560 44" aria-hidden="true" style="display:block;width:min(420px,72%);height:auto;margin:0 auto">
+        <polyline points="4,38 44,8 84,38 124,8 164,38 204,8 244,38 284,8 324,38 364,8 404,38 444,8 484,38 524,8 556,32" fill="none" stroke="#1A1510" stroke-width="1.6"></polyline>
+      </svg>
+      <p data-reveal="up" style="margin:38px 0 0;font-weight:500;font-size:clamp(22px,2.8vw,34px);line-height:1.35;letter-spacing:-.01em;color:#1A1510;text-wrap:balance">Our kiln fires in a zigzag — air weaves through the chambers, burning hotter and cleaner than any straight-line kiln.</p>
+      <p data-reveal="fade" data-reveal-delay="120" style="margin:20px 0 0;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;color:#8C7F72">~20% LESS COAL · FAR LESS SMOKE · 80% CLASS-1</p>
+      <a data-reveal="fade" data-reveal-delay="180" href="Zigzag.dc.html" style="display:inline-block;margin-top:24px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#1A1510;text-decoration:none;border-bottom:1px solid var(--bbA,#C24E22);padding-bottom:6px;transition:color .2s" style-hover="color:var(--bbA,#C24E22)">How the zigzag works →</a>
+    </div>
+  </section>
+  <section data-screen-label="Minimal — Quote" style="padding:0 clamp(20px,6vw,80px)">
+    <div style="max-width:1240px;margin:0 auto;border-top:1px solid rgba(26,21,16,.14);border-bottom:1px solid rgba(26,21,16,.14);padding:clamp(56px,7vw,90px) 0;text-align:center">
+      <blockquote data-reveal="up" style="margin:0 auto;max-width:720px;font-weight:400;font-size:clamp(20px,2.6vw,30px);line-height:1.55;letter-spacing:-.01em;color:#1A1510;text-wrap:balance">“We counted a load brick by brick — not one raw piece in fifty thousand. That is why we come back every single project.”</blockquote>
+      <p data-reveal="fade" data-reveal-delay="120" style="margin:26px 0 0;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;color:#8C7F72">HAJI RIAZ AHMAD — CONTRACTOR, LAHORE</p>
+    </div>
+  </section>
+  <section data-screen-label="Minimal — Contact" style="padding:clamp(80px,11vw,160px) clamp(20px,6vw,80px)">
+    <div style="max-width:1240px;margin:0 auto">
+      <p data-reveal="fade" style="margin:0;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:#8C7F72">Rates move with coal — one call locks yours</p>
+      <a data-reveal="up" data-reveal-delay="80" href="tel:+923457721816" style="display:inline-block;margin-top:22px;font-weight:600;font-size:clamp(40px,8.4vw,128px);line-height:1;letter-spacing:-.03em;color:#1A1510;text-decoration:none;transition:color .25s" style-hover="color:var(--bbA,#C24E22)">+92 345 7721816</a>
+      <div style="display:flex;flex-wrap:wrap;gap:14px 40px;margin-top:34px">
+        <a data-reveal="fade" data-reveal-delay="140" href="https://wa.me/923457721816?text=Assalam%20o%20Alaikum%20Burewala%20Bricks!%20Please%20share%20today%27s%20brick%20rates." target="_blank" rel="noopener" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#1A1510;text-decoration:none;border-bottom:1px solid var(--bbA,#C24E22);padding-bottom:6px;transition:color .2s" style-hover="color:var(--bbA,#C24E22)">WhatsApp ↗</a>
+        <a data-reveal="fade" data-reveal-delay="200" href="mailto:info@burewalabricks.com" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#1A1510;text-decoration:none;border-bottom:1px solid var(--bbA,#C24E22);padding-bottom:6px;transition:color .2s" style-hover="color:var(--bbA,#C24E22)">info@burewalabricks.com</a>
+        <a data-reveal="fade" data-reveal-delay="260" href="Contact.dc.html#quote" style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#1A1510;text-decoration:none;border-bottom:1px solid var(--bbA,#C24E22);padding-bottom:6px;transition:color .2s" style-hover="color:var(--bbA,#C24E22)">Quote form →</a>
+      </div>
+      <p data-reveal="fade" data-reveal-delay="300" style="margin:30px 0 0;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#8C7F72">LAHORE RD, HAJIAN WALI, BUREWALA · VEHARI, PUNJAB 61010 · SAT–THU 06:00–18:00</p>
+    </div>
+  </section>
+</main>
+<footer style="padding:0 clamp(20px,6vw,80px) 90px">
+  <div style="max-width:1240px;margin:0 auto;border-top:1px solid rgba(26,21,16,.14);padding-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 30px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#8C7F72">
+    <span>© 2026 BUREWALA BRICKS</span>
+    <span style="display:inline-flex;gap:22px;flex-wrap:wrap">
+      <a href="https://www.instagram.com/burewalabricks/" target="_blank" rel="noopener" style="color:#8C7F72;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">INSTAGRAM</a>
+      <a href="https://www.youtube.com/@BurewalaBricks" target="_blank" rel="noopener" style="color:#8C7F72;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">YOUTUBE</a>
+      <a href="https://www.facebook.com/burewalabricks259/" target="_blank" rel="noopener" style="color:#8C7F72;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">FACEBOOK</a>
+      <a href="https://www.tiktok.com/@burewalabricks" target="_blank" rel="noopener" style="color:#8C7F72;text-decoration:none;transition:color .2s" style-hover="color:#1A1510">TIKTOK</a>
+    </span>
+  </div>
+</footer>
+<div style="position:fixed;left:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:4px;background:rgba(26,21,16,.94);border:1px solid rgba(251,250,247,.14);border-radius:999px;padding:5px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.14em">
+  <span style="color:#8C7F72;padding:7px 6px 7px 12px">VARIANT</span>
+  <a href="Home.dc.html" style="color:#CFC6BB;text-decoration:none;padding:7px 10px;border-radius:999px;transition:color .2s" style-hover="color:#FF7B42">DARK</a>
+  <a href="Home%20Light.dc.html" style="color:#CFC6BB;text-decoration:none;padding:7px 10px;border-radius:999px;transition:color .2s" style-hover="color:#FF7B42">LIGHT</a>
+  <a href="Home%20Curvy.dc.html" style="color:#CFC6BB;text-decoration:none;padding:7px 10px;border-radius:999px;transition:color .2s" style-hover="color:#FF7B42">CURVY</a>
+  <a href="Home%20Minimal.dc.html" style="background:var(--bbA,#C24E22);color:#FBFAF7;font-weight:600;text-decoration:none;padding:7px 10px;margin-right:2px;border-radius:999px">MINIMAL</a>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;: {&quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#C24E22&quot;, &quot;options&quot;: [&quot;#C24E22&quot;, &quot;#1A1510&quot;, &quot;#8A5A2B&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Theme&quot;}, &quot;showUrdu&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Theme&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    this._applyAccent();
+    import('./site.js').then((m) => { this._fx = m.initFx(document); }).catch(() => {});
+  }
+  componentDidUpdate() { this._applyAccent(); }
+  _applyAccent() {
+    const a = this.props.accent;
+    if (a) document.documentElement.style.setProperty('--bbA', a);
+  }
+  componentWillUnmount() { if (this._fx) this._fx(); }
+  renderVals() {
+    return {
+      showUrdu: this.props.showUrdu === undefined ? true : !!this.props.showUrdu,
+      imgErr: (e) => { e.currentTarget.style.display = 'none'; },
+    };
+  }
+}
+</script>
+</body>
+</html>
